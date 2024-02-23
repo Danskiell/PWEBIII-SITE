@@ -1,0 +1,81 @@
+#tudoLogin{
+    height: 700px;
+    width: 1100px;
+    margin-top: 100px;
+}
+
+#form, #formReg{
+    width: 400px;
+    height: 450px;
+    text-align: left;
+    float: right;
+    font-family: 'Hind', sans-serif;
+}
+
+#formReg{
+    height: 950px;
+}
+
+#cadastro, #cadastroReg{
+    width: 400px;
+    height: 350px;
+    font-size: 25px;
+}
+
+#cadastroReg{
+    height: 880px;
+}
+
+.cadItens{
+    margin-left: 26px;
+}
+.cadItensInput{
+    width: 350px;
+    height: 30px;
+    margin-left: 25px;
+    margin-top: 20px;
+    border: none;
+    border-bottom: 0.5px solid #000;
+}
+
+#submit{
+    background-color: rgb(0, 0, 0);
+    border: none;
+    width: 200px;
+    height: 50px;
+    margin-left: 100px;
+    border-radius: 3px;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+}
+
+#imgLogin{
+    width: 600px;
+    height: 600px;
+    margin-bottom: 35px;
+    float: left;
+}
+select option{
+    background-color: #fff;
+    height: 50px;
+}
+input:focus, select:focus {
+    outline: 0;
+}
+input::placeholder{
+    color: #000;
+}
+
+.cadLink, .destaque{
+    text-align: left;
+    font-size: 20px;
+    float: left;
+    margin-left: 30px;
+}
+
+.destaque{
+    font-weight: bolder;
+    color: #000;
+    margin-left: 5px;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>La Bourlagerie</title>
+    <link rel = "stylesheet" type = "text/css" href = "css/home.css">
+    <link rel = "stylesheet" type = "text/css" href = "css/login.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+    <script src="" defer></script>
+</head>
+<body>
+        <header Id="header"> 
+            <h1> La Boulagerie </h1>
+            <img src="IMG/logo.png" id="logo">
+            <nav>            
+                <ul>
+                <li> <a href="1Home.html">  Home </a> </li>
+                <li> <div class="dropdown">
+						<button class="dropbtn">Cardápio</button>
+							<div class="dropdown-content">
+							<a href="Comidas.html">Lanches</a>
+							<a href="Bebidas.html">Bebidas</a>
+							<a href="Sobremesas.html">Sobremesas</a>
+							</div> 
+					</div> 	
+				</li>
+                <li> <a href="Local.html">  Local </a> </li>
+                <li> <a href="Login.html">  Contato </a> </li>
+                </ul>
+            </nav>
+        </header>
+        <h2 class="IntroMenu">Login</h2>
+		<div class="divider"></div>
+
+        <div id="tudoLogin">
+            <img id="imgLogin" src="IMG/imgLogin1.jpg">
+            
+            <div id="form">
+                <form id="cadastro" method="post">
+                    <label for="txtEmail" class="cadItens">E-mail</label>
+                    <br>
+                    <input type="email" name="txtEmail" id="txtEmail" maxlength="25" placeholder="Digite seu email" required class="cadItensInput">
+                    <br>
+                    <br>
+        
+                    <label for="pwdSenha" class="cadItens">Senha</label>
+                    <br>
+                    <input type="password" name="pwdSenha" id="pwdSenha" required placeholder="Digite sua senha" class="cadItensInput">
+                    <br>
+                    <br>
+        
+                    <input type="submit" id="submit" class="cadItensInput" onclick value="Login">
+                </form>
+                <h2 class="cadLink">Não possui conta? Registre se</h2><a href="cadastro.html" class="cadlink destaque">aqui.</a>
+            </div>
+        </div> 
+		
+		 <div id="footer">
+		<nav>
+			<ul>
+				<li><p>E-Mail: la.boulagerie.contato@gmail.com</p></li>
+				<li><p>Telefone: +99 (11) 1234-4321 </p></li>
+				<li><p>Endereco: Av. Paulista, 37 - Bela Vista, São Paulo - SP, 01311-000 </p></li>
+				<li><p>Alunos: Endy, Sophia, Vitor, Pedro Reis, Lucas</p></li>
+			</ul>
+		</nav>
+      </div>
+</body>
+</html>

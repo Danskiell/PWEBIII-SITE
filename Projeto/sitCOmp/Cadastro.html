@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>La Bourlagerie</title>
+    <link rel = "stylesheet" type = "text/css" href = "css/home.css">
+    <link rel = "stylesheet" type = "text/css" href = "css/login.css">
+
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+    <script src="" defer></script>
+</head>
+<body>
+        <header Id="header"> 
+            <h1> La Boulagerie </h1>
+            <img src="IMG/logo.png" id="logo">
+            <nav>            
+                <ul>
+                <li> <a href="1Home.html">  Home </a> </li>
+                <li> <div class="dropdown">
+						<button class="dropbtn">Cardápio</button>
+							<div class="dropdown-content">
+							<a href="Comidas.html">Lanches</a>
+							<a href="Bebidas.html">Bebidas</a>
+							<a href="Sobremesas.html">Sobremesas</a>
+							</div> 
+					</div> 	
+				</li>
+                <li> <a href="Local.html">  Local </a> </li>
+                <li> <a href="Login.html">  Contato </a> </li>
+                </ul>
+            </nav>
+        </header>
+		
+        <h2 class="IntroMenu">Cadastro</h2>
+		<div class="divider"></div>
+
+        <div id="tudoLogin">
+            <img id="imgLogin" src="IMG/imgLogin1.jpg">
+            
+            <div id="formReg">
+                <form id="cadastroReg" method="post">
+                    <label for="txtNome" class="cadItens" type="radio">Nome</label>
+                    <br>
+                    <input type="text" name="txtNome" maxlength="35" placeholder="Digite seu nome" required class="cadItensInput">
+                    <br>
+                    <br>
+        
+                    <label for="txtCPF" class="cadItens">CPF</label>
+                    <br>
+                    <input type="text" name="txtCPF" maxlength="11" placeholder="Digite seu CPF" required class="cadItensInput">
+                    <br>
+                    <br>
+        
+                    <label for="dtNasc" class="cadItens">Data de Nascimento</label>
+                    <br>
+                    <input type="date" name="dtNasc" min="1950-01-01" max="2022-11-30" required class="cadItensInput">
+                    <br>
+                    <br>
+
+                    <label for="cmbCD" class="cadItens">Estado</label>
+                    <br>
+                    <select name="cmbCD" id="cmbCD" required class="cadItensInput">
+                        <option value="">Selecione um estado</option>
+                        <option value="AC">Acre</option>
+                        <option value="AL">Alagoas</option>
+                        <option value="AP">Amapá</option>
+                        <option value="AM">Amazonas</option>
+                        <option value="BA">Bahia</option>
+                        <option value="CE">Ceará</option>
+                        <option value="DF">Distrito Federal</option>
+                        <option value="ES">Espírito Santo</option>
+                        <option value="GO">Goiás</option>
+                        <option value="MA">Maranhão</option>
+                        <option value="MT">Mato Grosso</option>
+                        <option value="MS">Mato Grosso do Sul</option>
+                        <option value="MG">Minas Gerais</option>
+                        <option value="PA">Pará</option>
+                        <option value="PB">Paraíba</option>
+                        <option value="PR">Paraná</option>
+                        <option value="PE">Pernambuco</option>
+                        <option value="PI">Piauí</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="RN">Rio Grande do Norte</option>
+                        <option value="RS">Rio Grande do Sul</option>
+                        <option value="RO">Rondônia</option>
+                        <option value="RR">Roraima</option>
+                        <option value="SC">Santa Catarina</option>
+                        <option value="SP">São Paulo</option>
+                        <option value="SE">Sergipe</option>
+                        <option value="TO">Tocantins</option>
+                    </select>
+                    <br>
+                    <br>
+    
+                    <label for="txtEmail" class="cadItens">E-mail</label>
+                    <br>
+                    <input type="email" name="txtEmail" id="txtEmail" maxlength="25" placeholder="Digite seu email" required class="cadItensInput">
+                    <br>
+                    <br>
+        
+                    <label for="txtTel" class="cadItens">Telefone</label>
+                    <br>
+                    <input type="tel" name="txtTel" id="txtTel" placeholder="Digite seu telefone" required class="cadItensInput">
+                    <br>
+                    <br>
+        
+                    <label for="pwdSenha" class="cadItens">Senha</label>
+                    <br>
+                    <input type="password" name="pwdSenha" id="pwdSenha" required placeholder="Digite sua senha" class="cadItensInput">
+                    <br>
+                    <br>
+        
+                    <input type="submit" id="submit" class="cadItensInput" onclick value="Registro">
+                </form>
+                <h2 class="cadLink">Já possui uma conta? Dê login</h2><a href="login.html" class="cadlink destaque">aqui.</a>
+            </div>
+            
+        </div> 
+		
+		 <div id="footer">
+		<nav>
+			<ul>
+				<li><p>E-Mail: la.boulagerie.contato@gmail.com</p></li>
+				<li><p>Telefone: +99 (11) 1234-4321 </p></li>
+				<li><p>Endereco: Av. Paulista, 37 - Bela Vista, São Paulo - SP, 01311-000 </p></li>
+				<li><p>Alunos: Endy, Sophia, Vitor, Pedro Reis, Lucas</p></li>
+			</ul>
+		</nav>
+      </div>
+</body>
+</html>
