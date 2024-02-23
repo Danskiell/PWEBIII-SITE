@@ -1,7 +1,9 @@
+
 *{  
     background-color: red;
     margin: 0 auto;
     box-sizing:border-box
+    
 }
 
 .imgApoio, .imgApoio2{
@@ -61,7 +63,7 @@ h1{
 }
 
 .txtSlider{
-    color: #000000;
+    color: whit;
     outline: 5px solid rgb(0, 0, 0);
     font-size: 50px;
     padding: 8px 12px;
@@ -155,18 +157,19 @@ nav ul li a, .dropdown-content a {
   text-shadow: #fff 0px 0px 2px;	
 }
 .dropdown-content a:hover {
-	background-color: #ffc31d;
-	color: white;
+	background-color: white;
+	color: red;
 }
 
 .dropdown:hover .dropdown-content {display: block;}
 /* FIM HEADER (EU ACHO)*/
 
 #Intro{
-	font-family: 'Kaushan Script', cursive;   
+    font-family: 'Kaushan Script', cursive;
     font-size: 350%;
     color: white; 
 	margin: 20px 0px 20px 20%;
+    padding-left: 180px;
 }
 .nomeMenu{
 
@@ -189,9 +192,11 @@ nav ul li a, .dropdown-content a {
     float: right;
     margin: auto;
     border-bottom: 10px solid black;
+    color: white;
 }
 .mySlides {
     display: none;
+    color: white;
 }
 .numbertext {
     color: #f2f2f2;
@@ -216,19 +221,20 @@ nav ul li a, .dropdown-content a {
     width: 50%;
     border-right: 10px solid black;
     border-bottom: 10px solid black;
-    background-color: #eeb61b;
-    box-shadow: #000 10px 10px 15px;    
+    background-color: #b40001;
+    box-shadow: #000 10px 10px 15px;
+    color: white;    
 }
 
-#cardapio, #footer{
+#cardapio{
     color:#f2f2f2;
     margin: 150px 0px 100px 0px;
-    background-color: #000;
-    border: 10px solid black;
+    background-color: #b40001;
     width: 100%;
     height: 350px;
 	color: #ffc31d;
-    box-shadow: #000 0px 0px 10px;
+    box-shadow: #000 10px 10px 15px;
+    border-top: 4px solid black;
 
 }
 
@@ -413,4 +419,34 @@ a:hover{
 }
 .dropdown-content:hover{
     color: red;
+}
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+.cantinho-text{
+    padding-top: 22px;
+    color: white;
+}
+.sobre-text{
+    color: #f3ede5;
+}
+.sobre{
+    padding-left: 20px;
+}
+#footer{
+    margin-top: 70px;
+    padding-top: 130px;
+    color:#f2f2f2;
+    margin: 150px 0px 100px 0px;
+    background-color: #b40001;
+    width: 100%;
+    height: 350px;
+	color: #ffc31d;
+    box-shadow: #000 10px 10px 15px;
+    
+}
+.imgApoio2{
+    left: 30px;
 }
