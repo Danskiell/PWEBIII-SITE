@@ -60,7 +60,7 @@ h1{
 }
 
 .txtSlider{
-    color: whit;
+    color: black;
     outline: 5px solid rgb(0, 0, 0);
     font-size: 50px;
     padding: 8px 12px;
@@ -164,7 +164,7 @@ nav ul li a, .dropdown-content a {
 #Intro{
     font-family: 'Kaushan Script', cursive;
     font-size: 350%;
-    color: white; 
+    color: black; 
 	margin: 20px 0px 20px 20%;
     padding-left: 180px;
 }
