@@ -1,6 +1,6 @@
 
 *{  
-    background-color: red;
+    background-color: white;
     margin: 0 auto;
     box-sizing:border-box
     
@@ -53,7 +53,7 @@ p{
 h1{
     font-family: 'Kaushan Script', cursive;   
     font-size: 450%;
-    color: #ffc918; 
+    color: #ffffff; 
     float: left;
     margin-left: 2%;
     background-color: #000;
@@ -180,7 +180,7 @@ nav ul li a, .dropdown-content a {
 .divider{
 	width: 100%;
 	height: 5px;
-	background-color: #000;
+	background-color: #000000;
 }	
 
 
@@ -271,7 +271,10 @@ nav ul li a, .dropdown-content a {
     width: 1060px;
     height: 550px;
     display: block;
-    background-color: #d6a317;
+    background-color:#b40001;
+    box-shadow: #000 10px 10px 15px;
+    padding-bottom: 35px;
+    border-radius: 12px;
 }
 
 .comidas, .comidas1, .comidas1H{
@@ -324,16 +327,21 @@ nav ul li a, .dropdown-content a {
 
 #endereco{
     color: #000;
-    margin: 80px 30px -100px 430px;
+    margin: 80px 20px -50px 500px;
     font-size: 120%;
-    width: 470px;
-    height: 500px;
+    width: 600px;
+    height: 300px;
     text-align: justify;
     float: left;
     font-family: 'Hind', sans-serif;
+    border: #b40001 5px solid;
+    padding-left: 50px;
+    padding-right: 20px;
 }
+
 .enderecoText, #endereco, .subtitulo{
     background-color: rgb(0, 0, 0, 0);
+    font-size: 25px;
 }
 body{
     background-position: fixed;
@@ -373,12 +381,13 @@ body{
 .Intro, .IntroMenu{
 	font-family: 'Bree Serif', serif;   
     font-size: 350%;
-    color: #000; 
+    color: #000000; 
     float: middle;
 	
 }
 .Intro{
     margin: 20px 0px 5px 15%;
+    
 }
 .IntroMenu{
     text-align: center;
@@ -431,7 +440,6 @@ a:hover{
 }
 .sobre{
     padding-left: 20px;
-    paddin-;
 }
 #footer{
     margin-top: 70px;
@@ -451,4 +459,24 @@ a:hover{
 
 .container-color{
     background-color: white;
+}
+#heaven{
+    color: red;
+    height: 220px;
+    width: 100%;
+    background-color: #000;
+    margin: 10px solid #ffc918;
+    box-shadow: #000 0px 0px 10px;
+}
+.padding-test{
+    padding-bottom: 35px;
+}
+
+.padding-test2{
+    padding-bottom: 35px;
+}
+.height-height{
+    height: 100px;
+
+
 }
